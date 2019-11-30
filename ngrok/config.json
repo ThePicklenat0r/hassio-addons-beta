@@ -5,7 +5,9 @@
   "description": "A ngrok client for Hass.io",
   "webui": "http://[HOST]:[PORT:4040]",
   "url": "https://github.com/ThePicklenat0r/hassio-ngrok",
-  "host_network": "true",
+  "host_network": true,
+  "ingress": true,
+  "panel_icon": "mdi:wan",
   "arch": [
     "aarch64",
     "amd64",
@@ -16,10 +18,10 @@
   "startup": "system",
   "boot": "auto",
   "ports": {
-    "4040/tcp": "4040"
+    "80/tcp": "4040"
   },
   "ports_description": {
-    "4040/tcp": "Web interface"
+    "80/tcp": "Web interface (Not required for Hass.io Ingress"
   },
   "options": {
     "NGROK_AUTH": "",
