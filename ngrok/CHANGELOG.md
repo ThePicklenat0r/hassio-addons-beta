@@ -1,5 +1,5 @@
-[Change Log](https://github.com/ThePicklenat0r//releases/tag/1.2b1)
+[Change Log](https://github.com/ThePicklenat0r//releases/tag/1.2)
 
 
 Latest change:
-Update README.md
+Bump version
