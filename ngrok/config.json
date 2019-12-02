@@ -1,6 +1,6 @@
 {
   "name": "ngrok Client",
-  "version": "1.2b0",
+  "version": "1.2b1",
   "slug": "ngrok",
   "description": "A ngrok client for Hass.io",
   "webui": "http://[HOST]:[PORT:4040]",
@@ -14,13 +14,14 @@
   ],
   "startup": "system",
   "boot": "auto",
+  "host_network": true,
   "ports": {
     "4040/tcp": "4040"
   },
   "ports_description": {
     "4040/tcp": "Web interface"
   },
-  "map": ["share:r"],
+  "map": ["share"],
   "options": {
     "auth_token": "",
     "region": "us",

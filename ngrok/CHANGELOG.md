@@ -1,5 +1,5 @@
-[Change Log](https://github.com/ThePicklenat0r//releases/tag/1.2b0)
+[Change Log](https://github.com/ThePicklenat0r//releases/tag/1.2b1)
 
 
 Latest change:
-update default image to armv7
+Update README.md
