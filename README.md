@@ -5,7 +5,7 @@
 These are a collection of beta builds of add-ons for Hass.io that I've either
 built or modified from another source to serve my needs. Typically I will publish
 builds directly to stable, but occasionally I will test them here before releasing
-them. If you would prefer to only use stable builds, check out my [repository][repository]
+them. If you would prefer to only use stable builds, check out my [repository][repository].
 
 ## Caution
 
